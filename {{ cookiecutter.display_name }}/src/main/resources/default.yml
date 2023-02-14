@@ -1,0 +1,5 @@
+general:
+  nametag:
+    prefix: "<gradient:#ff930f:#fff95b><bold>{{ cookiecutter.display_name }}</bold></gradient> <dark_gray>»</dark_gray><gray>"
+  message:
+    reload: "<aqua>Plugin configuration successfully reloaded.</aqua>"

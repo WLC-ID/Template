@@ -1,0 +1,11 @@
+{
+    "plugin_id": 0,
+    "group_id": "me.raviel",
+    "display_name": "Nimbus",
+    "__name": "{{ cookiecutter.display_name.lower() }}",
+    "description": "Cloud Currency",
+    "icon": "STONE",
+    "gui": ["yes", "no"],
+    "database": ["yes", "no"],
+    "__package": "{{ cookiecutter.group_id + '.' + cookiecutter.__name }}"
+  }

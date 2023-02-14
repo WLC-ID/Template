@@ -1,0 +1,9 @@
+name: {{ cookiecutter.display_name }}
+description: {{ cookiecutter.description }}
+version: maven-version-number
+main: {{ cookiecutter.__package }}.{{ cookiecutter.display_name }}
+api-version: 1.19
+authors: [ Raviel ]
+commands:
+  {{ cookiecutter.__name }}:
+    description: {{ cookiecutter.display_name }} Main Command
