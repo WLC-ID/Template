@@ -1,7 +1,7 @@
 package {{ cookiecutter.__package }};
 
-import {{ cookiecutter.__package }}.command.ReloadCommand;
-import {{ cookiecutter.__package }}.database.DataManager;
+import {{ cookiecutter.__package }}.command.ReloadCommand;{% if cookiecutter.database == "yes" %}
+import {{ cookiecutter.__package }}.database.DataManager;{% endif %}
 import {{ cookiecutter.__package }}.settings.Settings;
 import lombok.Getter;
 import me.raviel.core.RLXPlugin;
