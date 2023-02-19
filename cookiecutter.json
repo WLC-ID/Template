@@ -1,9 +1,9 @@
 {
     "plugin_id": 0,
     "group_id": "me.raviel",
-    "display_name": "Nimbus",
+    "display_name": "PluginName",
     "__name": "{{ cookiecutter.display_name.lower() }}",
-    "description": "Cloud Currency",
+    "description": "Plugin Description",
     "icon": "STONE",
     "gui": ["yes", "no"],
     "database": ["yes", "no"],
