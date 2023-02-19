@@ -13,7 +13,7 @@ public class Settings {
 {%- if cookiecutter.database == "yes" -%}
     public static final ConfigSetting
             DATABASE_DRIVER = new ConfigSetting(config, "Database.Driver",
-                false,
+                "SQLITE",
                 "Databse Driver: MYSQL, MARIADB, SQLITE"),
             DB_HOSTNAME = new ConfigSetting(config, "Database.Hostname",
                     "localhost"),
